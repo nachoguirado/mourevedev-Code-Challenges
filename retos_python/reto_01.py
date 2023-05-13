@@ -53,26 +53,3 @@ class AnagramWord:
             print("No es un anagrama")
             return False
             
-
-        
-
-'''word_01 = 'Amatr'
-word_02 = 'Matra'
-word_01 = word_01.lower()
-word_02 = word_02.lower()
-
-count = 0
-list_01 = list(word_01)
-list_02 = list(word_02)
-
-for i in list_01:   #Recorremos la palabra 1. \
-    if i in list_02:
-        count += 1
-        print(i)
-        list_02.remove(i)
-        print(list_02)
-        #word_02 = word_02[:bucle]+ word_02[bucle+1:]
-if count == len(word_01):
-        print("Es una anagrama")
-else:
-        print("No es un anagrama")'''
